@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px; 
+    list-style: none;
+    align-items: center;
+    background-color: #e7bc7b;
+}
+
+.sub-menu {
+    width: 40vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.sub-menu li a {
+    text-decoration: none;
+    color: #8653ff;
+    font: 18px "Ubuntu", sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-container img {
+    width: 6vw;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #8653ff;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+input::placeholder {
+    font: 14px "Ubuntu", sans-serif;
+}
+
+.form-btn {
+    border: none;
+    padding: 5px;
+    background-color: #fff;
+    margin-left: -35px;
+    border-radius: 50%;
+}
+
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.sub-titles {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+main h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: start;
+    margin: 0 0 0 17px;
+    text-decoration: underline;
+}
+
+main p, .accordion-button {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 1.25em auto;
+}
+
+.card img {
+    height: 400px;
+}
+
+.container-contacto {
+    display: flex;
+    flex-flow: column;
+    width: 50vw;
+    margin: 20px auto;
+}
+
+.container-contacto button {
+    width: 15vw;
+    margin: auto;
+    align-self: center;
+}
+
+.footer-container {
+    background-color: #8653ff;
+    padding: 0 10vw;
+}
+
+.accordion {
+    margin-bottom: 60px;
+}
+
+.texto-colapsable {
+    height: 290px;
+    margin-bottom: 15px;
+}
